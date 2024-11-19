@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 from config import Config
-from model import ERNIE_LSTM_CRF
+from model import ERNIE_GRU_Att_CRF
 import torch.optim as optim
 from utils import load_vocab, read_corpus, load_model, save_model, build_dataset, get_time_diff
 from torch.utils.data import DataLoader
